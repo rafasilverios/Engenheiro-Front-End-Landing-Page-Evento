@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo-aniversário.png" alt="Meu Aniversário">
+            <p class="hero__text">O maior evento de Aniversário do ano começa em <span id="contador"></span></p>
+            <div class="infos-grid">
+                <ul class="infos-grid__infos">
+                    <li class="infos-grid__infos__item">
+                        <img src="./images/icons/calendar-icon.png" alt="">
+                        <p>Quando:</p>
+                        <b><i>31 de março</i></b>
+                        <p class="text-small">2024</p>
+                    </li>
+                    <li class="infos-grid__infos__item">
+                        <img src="./images/icons/navigation-icon.png" alt="">
+                        <p>Onde:</p>
+                        <b><i>Curitiba - PR</i></b>                        
+                        <p class="text-small">Jockey Club</p>
+                    </li>
+                    <li class="infos-grid__infos__item">
+                        <img src="./images/icons/clock-icon.png" alt="">
+                        <p>Horário:</p>
+                        <b><i>20h às 00h</i></b>
+                    </li>
+                </ul>
+            </div>
+            <div class="button">
+                <a href="#" class="button--primary">Confirme sua Presença</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Espaço Amplo</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum?</p>
+            </div>
+            <img class="event__image" src="./images/espaco-amplo.png" alt="Espaço Amplo">
+        </div>
+    </section>
+
+    <section class="event event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Festa Open Bar</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum?</p>
+            </div>
+            <img class="event__image" src="./images/open-bar.png" alt="Open Bar">
+        </div>
+    </section>
+
+    <section class="event">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Atrações Internacionais</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam nobis cumque nulla impedit possimus autem id iure ab assumenda quae incidunt, officia, quis cum hic molestiae! Eius, ex dolorum?</p>
+            </div>
+            <img class="event__image" src="./images/atracoes-internacionais.png" alt="Atrações Internacionais">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

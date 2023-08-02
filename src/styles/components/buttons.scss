@@ -1,0 +1,22 @@
+@use '../variables';
+
+.button {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    &--primary {
+        padding: 16px;
+        color: variables.$orange;
+        background-color: variables.$purple;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: all ease .3s;
+    }
+
+    &--primary:hover {
+        color: variables.$purple;
+        background-color: variables.$orange;
+    }
+}
